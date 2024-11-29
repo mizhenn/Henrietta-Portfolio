@@ -10,17 +10,17 @@ body {
   
   /* Header Styles */
   header {
-    background: linear-gradient(135deg, #333333, #5c6b73); /* Blue-greyish gradient background */
-    padding: 20px 0; /* Added padding for spacing */
+    background: linear-gradient(135deg, #333333, #5c6b73); 
+    padding: 20px 0; 
     color: white;
     text-align: center;
     position: relative;
-    z-index: 1; /* Ensure header stays on top */
+    z-index: 1; 
   }
   
   header h1 {
     font-family: 'Lora', serif;
-    font-size: 2.5rem; /* Adjusted font size for header */
+    font-size: 2.5rem;
     margin: 0;
   }
   
@@ -29,7 +29,7 @@ body {
   }
   
   header nav a {
-    color: #FF6600; /* Orange color for links */
+    color: #FF6600; 
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.1rem;
@@ -42,21 +42,21 @@ body {
   /* Main Content Area */
   main {
     width: 100%;
-    max-width: 1200px; /* Set a maximum width for content */
-    margin: 0 auto;   /* Centers the content horizontally */
+    max-width: 1200px; 
+    margin: 0 auto;   
     padding: 20px;
     box-sizing: border-box;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
   }
   
   /* Section Styling without Borders */
   section {
     padding: 40px 20px;
     margin-bottom: 30px;
-    border-radius: 10px; /* Rounded corners for a soft look */
+    border-radius: 10px; 
     background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(255, 102, 0, 0.2); /* Soft, blurry shadow for separation */
-    text-align: left; /* Align text to the left */
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.2); 
+    text-align: left; 
   }
   
   section h2 {
@@ -67,11 +67,16 @@ body {
   /* Blog Post Styling */
   .blog-post {
     margin-bottom: 50px;
+    text-align: left; 
   }
   
+  .blog-post p,
+  .blog-post ul,
   .blog-post h3 {
-    margin-top: 30px;
-    color: #333333;
+    text-align: left; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
   }
   
   /* Contact Section */
